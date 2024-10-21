@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 1. Name your web page -->
-    <title></title>
+    <title>Maham's Portfolio</title>
 
     <!-- 7. Import Stylesheet -->
-
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
     <!-- 2. Name and Info -->
     <header>
-
+        <h1>Maham Nadeem</h1>
+        <h2>Student at UOFG</h2>
+        <p>I am 18 years old...Starting today !</p>
+        <p>Guelph, ON</p>
+        <p>mahamnadeem2106@gmail.com</p>
     </header>
 
     <!-- 3. About Me -->
-    <section>
+    <section class="about"></section>
         <!-- 3a. The About Me Section -->
-
+        
+        <div class="aboutme">
+            <h2>About ME !</h2>
+            <p>My name's Maham, a first year computer science undergraduate student at UOFG</p>
+        </div>
 
         <!-- 4. Add a Picture -->
         <div>
-
+                <img src="images/amy.jpg" style="width:250px" class="myOtherPic"/>
+                <p>I might be Amy the hedgehog, who knows.</p>
         </div>
     </section>
 
@@ -33,10 +42,26 @@
     <section class="projects">
         <div>
             <!-- 5a. Add project title -->
-            <h4></h4>
+            <h4><a href="https://github.com/mahamnad/LearnAboutWebBasics">Portfolio Project</a></h4>
 
             <!-- 5b. Add project description -->
+            <ul>
+                <li>Learned about HTML !</li>
+                <li>Also learned about VS Code</li>
+                <li>Made my Github account</li>
+                <li>The beginning of many projects...</li>
+            </ul>
 
+        </div>
+        <div>
+            <!-- 5a. Add project title -->
+            <h4><a href="https://github.com/mahamnad/LearnAboutWebBasics">Second Project</a></h4>
+
+            <!-- 5b. Add project description -->
+            <ul>
+                <li>It's the same link</li>
+                <li>Nothing new here</li>
+            </ul>
 
         </div>
     </section>
@@ -46,6 +71,7 @@
         <h2>Connect With Me!</h2>
         <!-- 6a. Make a button -->
         <!-- 6b. Make it redirectable -->
+         <a href="https://github.com/settings/profile" target="_blank"><button>Github</button></a>
 
     </footer>
 </body>

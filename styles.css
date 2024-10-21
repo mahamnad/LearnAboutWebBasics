@@ -5,11 +5,11 @@ body
 
 header
 {
-    background-color: #121212;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 25px;
-    filter: drop-shadow(0 0 0.75rem black);
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
 }
 
 section.about
@@ -17,8 +17,8 @@ section.about
     padding: 15px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #4285F4;
-    filter: drop-shadow(0 0 0.75rem black);
+    background-color: #FFC0CB;
+    filter: drop-shadow(0 0 0.75rem rgb(237, 193, 193));
     display: flex;
 }
 
@@ -79,5 +79,5 @@ button
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    background-color: #34a853;
+    background-color: #FFC0CB;
 }
