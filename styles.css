@@ -5,8 +5,8 @@ body
 
 header
 {
-    background-color: #000000;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(2, 2, 2);
     text-align: center;
     padding: 25px;
     filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
@@ -18,7 +18,7 @@ section.about
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #FFC0CB;
-    filter: drop-shadow(0 0 0.75rem rgb(237, 193, 193));
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
     display: flex;
 }
 
@@ -30,7 +30,7 @@ section.about p
 div.aboutme
 {
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     padding: 15px;
     background-color: #f0f0f0;
     border-radius: 20px;
