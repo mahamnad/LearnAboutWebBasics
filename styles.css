@@ -10,7 +10,6 @@ body {
 }
 
 header {
-    background-color: #ffffff;
     color: rgb(2, 2, 2);
     text-align: center;
     padding: 25px;
@@ -42,8 +41,6 @@ section.divider, div.divider {
 div.aboutme {
     align-items: center;
     padding: 15px;
-    /* filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255)); */
-    background-color: white;
     text-align: center;
 }
 
@@ -149,18 +146,26 @@ button {
     font-size: 16px;
     cursor: pointer;
     background-color: #FFC0CB;
-    border-color: green;
+    border-color: white;
 
 }
 
 .sectionDivider {
     float: none;
 }
-
+.pink-bg {
+    background-color:  #ffecf1;
+    border: solid;
+    border-radius: 175px;
+    padding: 15px;
+    border-color: white;
+    border-width: 10px;
+}
 .white-bg { 
     background-color: white;
     border: solid;
-    border-radius: 5px;
+    border-radius: 175px;
     padding: 15px;
     border-color: white;
+    border-width: 10px;
 }
