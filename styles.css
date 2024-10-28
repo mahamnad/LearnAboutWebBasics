@@ -1,10 +1,15 @@
-body
-{
-    font-family: Arial, sans-serif;
+html {}
+
+body {
+    font-family: 'Courier New', monospace;
+    overflow-x: hidden;
+    padding-inline: 5px;
+
+    background: url(images/background.jpg);
+    background-blend-mode: color-dodge;
 }
 
-header
-{
+header {
     background-color: #ffffff;
     color: rgb(2, 2, 2);
     text-align: center;
@@ -12,72 +17,150 @@ header
     filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
 }
 
-section.about
-{
-    padding: 15px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+section.divider, div.divider {
+    padding-bottom: 25px;
     background-color: #FFC0CB;
     filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
     display: flex;
-}
-
-section.about p
-{
     font-weight: bold;
+    align-items: center;
 }
 
-div.aboutme
-{
-    margin: 0 auto;
-    width: 100%;
+.intro {
+    padding-inline: 5px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.profile {
+    border: solid #ffcaf2;
+    padding: 5px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+div.aboutme {
+    align-items: center;
     padding: 15px;
-    background-color: #f0f0f0;
-    border-radius: 20px;
+    /* filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255)); */
+    background-color: white;
+    text-align: center;
 }
 
-.mypicture
-{
-    border: solid #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    margin-right: 100px;
+.mypicture {
+    border: solid #ffcaf2;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
 }
 
-h2.projects
-{
-    padding-top: 15px;
+
+.image-text-pair {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.image-text-pair p {
+    margin: 0;
+    font-size: 16px;
+}
+
+#clankSection .image-text-pair {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#clankSection .mypicture {
+    margin: 0;
+    justify-content: flex-start;
+    margin-right: 80px;
+}
+
+.art {
+    align-items: center;
+    padding-inline: 5px;
+    text-align: center;
+}
+
+.m-t-20 { 
+    margin-top: 20px;
+}
+
+.p-t-20 { 
+    padding-top: 20px;
+}
+
+.m-b-20 { 
+    margin-bottom: 20px;
+}
+
+.m-t-50 { 
+    margin-top: 50px;;
+}
+
+.m-l-50 { 
+    margin-left: 50px;;
+}
+
+
+h2.projects {
+    margin-top: 0;
     padding-left: 15px;
     font-size: 32px;
+    text-align: center;
 }
 
-section.projects
-{
-    padding: 15px;
-    padding-top: 0px;
+section.projects {
+    width: 100%;
+    padding: 0 20px 10px 20px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
 }
 
-section.projects div
-{
+section.projects div {
+    width: 100%;
+    max-width: 1000px;
     border: solid;
     border-radius: 5px;
+    border-color: #ffcaf2;
     padding: 15px;
     margin-right: 15px;
 }
 
-footer.findme
-{
+footer.findme {
     text-align: center;
     padding: 25px;
 }
 
-button
-{
-    color: white;
+button {
+    color: black;
     padding: 16px 32px;
+    border-radius: 50px;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     background-color: #FFC0CB;
+    border-color: green;
+
+}
+
+.sectionDivider {
+    float: none;
+}
+
+.white-bg { 
+    background-color: white;
+    border: solid;
+    border-radius: 5px;
+    padding: 15px;
+    border-color: white;
 }
